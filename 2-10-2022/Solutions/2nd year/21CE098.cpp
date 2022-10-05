@@ -1,7 +1,8 @@
 #include<iostream>
+using namespace std;
 int main()
 {
-    std::cout<<"hello World";
-    std::cout<<"\nhello World";
+    cout<<"hello World";
+    cout<<"\nhello World";   //  \n is used for print hello world in next line
     return 0;
 }
