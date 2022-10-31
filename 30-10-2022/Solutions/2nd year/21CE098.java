@@ -1,13 +1,12 @@
 import java.util.Scanner;
 public class Solution {
     public static int[] buildArray(int[] nums) {
-        Scanner s1=new Scanner(System.in);
-       int n=nums.length;
+        int n=nums.length;
         int arr[]=new int [n];
-        	for(int j=0;j<n;j++)
+        for(int j=0;j<n;j++)
 	{
-		 arr[j]=nums[nums[j]];
-    }
+	  arr[j]=nums[nums[j]];
+        }
     return arr;
     }
     public static void main(String[] ars)
@@ -15,16 +14,16 @@ public class Solution {
         Scanner s=new Scanner(System.in);
         System.out.println("enter the size of array");
 	int k=s.nextInt();
-	  System.out.println("enter the elements of an array");
+        System.out.println("enter the elements of an array");
 	int nums[]=new int[k];
 	for(int i=0;i<k;i++)
 	{
-		nums[i]=s.nextInt();
+          nums[i]=s.nextInt();
 	}
         int arr[]=buildArray(nums);
         for(int j=0;j<k;j++)
         {
         System.out.println(arr[j]);
-    }
+        }
     }
 }
